@@ -1,7 +1,7 @@
 # Tele-Robotic Avatar with Choitek Megamark and Agora IO!
 *Agora IO Hackathon 2018 Submission*
 
-![](Cameras.jpg)
+![](https://github.com/johnchoi313/Megamark-Teleoperator/blob/master/Images/Cameras.jpg)
 
 ## Inspiration
 The ultimate goal of COMMUNICATION is broadly defined as the *"means of connecting people and places in particular."*
@@ -15,7 +15,7 @@ We believe telepresence is the defining next chapter - emulating the ability to 
 ## What it does
 We've built a telepresence app that allows to you remote pilot a Choitek Megamark mobile manipulator robot from anywhere in the world with a stable and high speed internet connection, enabling the user to physically operate in remote environments while increasing awareness of the surroundings beyond that of a traditional video call. The Choitek Megamark features a mobile base, a laptop-for-face for easy setup and a two arms with simple grippers for doing basic tasks. *(Note to judges: robotic hardware was actually developed prior to this hackathon, while the telepresence app software using Agora IO was developed during this hackathon.)*
 
-![](RobotView.gif)
+![](https://github.com/johnchoi313/Megamark-Teleoperator/blob/master/Images/RobotView.gif)
 
 ## How we built it
 
@@ -27,7 +27,7 @@ For this demo to work, there are two computers in question: one on top of the ro
 
 2. Then, once the robot server laptop has been setup, we open another instance of the app on the remote client viewer laptop, and fill in the same login credentials set on the robot server. This time, with the robot server running, we hit the **Join Server** button on the remote client. If the connection was successful, it should now be streaming audio and video between the laptops! *(Optionally, if a Megamark robot is connected to the robot server, keyboard commands will also be streamed from the remote client to the robot server to remote pilot the Megamark robot.)*
 
-![](MegamarkTeleoperator.jpg)
+![](https://github.com/johnchoi313/Megamark-Teleoperator/blob/master/Images/MegamarkTeleoperator.JPG)
 
 ## Challenges we ran into
 Admittedly, while the app is functional, this standalone app is not production ready and has many chinks to work out before being ready for prime time:
@@ -43,7 +43,7 @@ Although our hackathon project is functional, we had to do some *really* funky h
 
 We are proud of making a unique and fully functional mobile telepresence robot with a lot of good work on the hardware side *and* the software side, and combining the two into one beautiful chocolate-vanilla ice cream sundae (metaphorically speaking...)
 
-![](ScifiHUD.gif)
+![](https://github.com/johnchoi313/Megamark-Teleoperator/blob/master/Images/SCIFIHud.gif)
 
 In particular, we are proud of our clean-ish science-fiction starship UI, functional integration with robotics, telepresence, audiovisual streaming with keyboard command control and basic security, all working in a single standalone Windows-friendly executable. *(P.S. Try sticking on a 180-degree fish-eye lens on one of the laptop camera and enable the 3D-hemisphere rendering mode for super cool surround-view effect!)*
 
